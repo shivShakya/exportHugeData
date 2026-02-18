@@ -1,7 +1,7 @@
 # env files
 .env
-.env.*
-**/.env
+worker/.env
+server/.env
 
 # node modules or build folders (example)
 node_modules/
