@@ -1,0 +1,16 @@
+# env files
+.env
+.env.*
+**/.env
+
+# node modules or build folders (example)
+node_modules/
+dist/
+build/
+
+# your specific folders (replace with actual names)
+folder1/
+folder2/
+
+# OS files
+.DS_Store
