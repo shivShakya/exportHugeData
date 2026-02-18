@@ -1,0 +1,23 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.990.0",
+    "@aws-sdk/lib-storage": "^3.990.0",
+    "@fast-csv/format": "^5.0.5",
+    "bullmq": "^5.69.2",
+    "dotenv": "^17.3.1",
+    "ioredis": "^5.9.3",
+    "mysql2": "^3.17.1"
+  }
+}
